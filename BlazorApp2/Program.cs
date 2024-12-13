@@ -10,7 +10,7 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 _ = builder.Services.AddSyncfusionBlazor();
 
 SyncfusionLicenseProvider
-    .RegisterLicense("MzUwMDIwM0AzMjM3MmUzMDJlMzBrcUdxNlNSaVMwM1dFZHdsSHJUUVRhOVlqWnVzcHNOVHIvMm5kNXRlbUVBPQ==");
+    .RegisterLicense("");
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 
 await builder.Build().RunAsync();
