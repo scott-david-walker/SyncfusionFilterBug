@@ -1,0 +1,26 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+.DS_Store
+
+# IDEs and editors
+*.idea
+.project
+.classpath
+.csproj.user
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.vs
+
+# IDE - VSCode
+.vscode/*
+*.DotSettings.user
+
+# contains secrets:
+appsettings.local.json
+tempkey.rsa
+/src/tempkey.jwk
